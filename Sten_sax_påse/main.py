@@ -27,20 +27,20 @@ while i < antal_omgångar :
     else :
         print("what the sigma")
     
-    if ai == 1 :
-        ai_val = "Sten"
-    elif ai == 2 :
-        ai_val = "Sax"
-    elif ai == 3 :
-        ai_val = "Påse"
+    ai_list = ["Sten","Sax","Påse"]
+    ai_val = ai_list[random.randint(0,2)]
     
     print(f"{name_of_ai} spelar: {ai_val}")
+    
+    if ai.lower() == ai_val.lower() :
+        print("Womp Womp ni gissade på samma ")
+    elif 
 
 
 
 
 
-    print(ai)
+    
     i = i + 1
 
     
