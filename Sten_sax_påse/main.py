@@ -26,6 +26,18 @@ while i < antal_omgångar :
     else :
         print("what the sigma")
     
+    if ai == 1 :
+        ai_val = "sten"
+    elif ai == 2 :
+        ai_val = "sax"
+    elif ai == 3 :
+        ai_val = "påse"
+    
+
+
+
+
+
     print(ai)
     i = i + 1
 
