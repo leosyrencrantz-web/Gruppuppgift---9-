@@ -29,8 +29,23 @@ while i < antal_omgångar :
     
     if val.lower() == ai_val.lower() :
         print("Womp Womp ni gissade på samma ")
+    elif val.lower() == "sten" and ai_val.lower() == "påse" :
+        print(f"vinnare i spelomgång {i}: {name_of_ai}")
+    elif val.lower() == "sten" and ai_val.lower() == "sax" :
+        print(f"vinnare i spelomgång {i}: {spelarnamn}")
 
+ 
+    elif val.lower() == "påse" and ai_val.lower() == "sax" :
+        print(f"vinnare i spelomgång {i}: {name_of_ai}")
+    elif val.lower() == "påse" and ai_val.lower() == "sten" :
+        print(f"vinnare i spelomgång {i}: {spelarnamn}")
 
+    
+    
+    elif val.lower() == "sax" and ai_val.lower() == "sten" :
+        print(f"vinnare i spelomgång {i}: {name_of_ai}")
+    elif val.lower() == "sax" and ai_val.lower() == "påse" :
+        print(f"vinnare i spelomgång {i}: {spelarnamn}")
 
 
 
