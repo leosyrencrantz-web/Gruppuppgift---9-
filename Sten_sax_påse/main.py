@@ -1,6 +1,7 @@
 import random
 print("Nu ska vi spela Sten, Sax eller Påse!")
-print("Jag är pytohn 311")
+name_of_ai = "python311"
+print(f"Jag är {name_of_ai}")
 
 spelarnamn = input("Ange ditt spelarnamn ->")
 antal_omgångar = int(input("Ange antal omgångar som vi ska spela ->"))
@@ -15,24 +16,25 @@ while i < antal_omgångar :
 #   2 = Sax
 #   3 = Påse
     
-    if val.lower == "sten" :
+    if val.lower() == "sten" :
         print("magistern spelar: Sten")
 
-    elif val.lower == "sax" :
+    elif val.lower() == "sax" :
         print("magistern spelar: Sax")
-    elif val.lower == "påse" :
+    elif val.lower() == "påse" :
         print("magistern spelar: Påse")
 
     else :
         print("what the sigma")
     
     if ai == 1 :
-        ai_val = "sten"
+        ai_val = "Sten"
     elif ai == 2 :
-        ai_val = "sax"
+        ai_val = "Sax"
     elif ai == 3 :
-        ai_val = "påse"
+        ai_val = "Påse"
     
+    print(f"{name_of_ai} spelar: {ai_val}")
 
 
 
