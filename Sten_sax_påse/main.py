@@ -11,11 +11,6 @@ val = None
 while i < antal_omgångar :
     print(f"Spelomgång {i}")
     val = input("Välj Sten Sax eller Påse ->")
-    ai = random.randint(1,3)
-#   1 = Sten
-#   2 = Sax
-#   3 = Påse
-    
     if val.lower() == "sten" :
         print("magistern spelar: Sten")
 
@@ -32,9 +27,8 @@ while i < antal_omgångar :
     
     print(f"{name_of_ai} spelar: {ai_val}")
     
-    if ai.lower() == ai_val.lower() :
+    if val.lower() == ai_val.lower() :
         print("Womp Womp ni gissade på samma ")
-    elif 
 
 
 
