@@ -1,10 +1,25 @@
 import random
+
+
+
+
+
 print("Nu ska vi spela Sten, Sax eller Påse!")
 name_of_ai = "python311"
 print(f"Jag är {name_of_ai}")
 
 spelarnamn = input("Ange ditt spelarnamn ->")
 antal_omgångar = int(input("Ange antal omgångar som vi ska spela ->"))
+
+result = {
+
+spelarnamn : 0,
+name_of_ai : 0,
+
+}
+
+
+
 
 i = 0
 val = None
@@ -49,7 +64,7 @@ while i < antal_omgångar :
 
 
 
-    
+    print(result)
     i = i + 1
 
     
