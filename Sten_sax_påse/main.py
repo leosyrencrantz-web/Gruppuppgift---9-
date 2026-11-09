@@ -71,6 +71,18 @@ while i < antal_omgångar :
     i = i + 1
 
     
+print("SLUTRESULTAT")
+if result[spelarnamn] > result[name_of_ai]:
+    print(f"{spelarnamn}: {result[spelarnamn]}p")
+    print(f"{name_of_ai}: {result[name_of_ai]}p")
+    print(f"Vinnare: {spelarnamn}") 
+elif result[spelarnamn] < result[name_of_ai]:
+    print(f"{name_of_ai}: {result[name_of_ai]}p")
+    print(f"{spelarnamn}: {result[spelarnamn]}p")
+    printf(f"Vinnare: {name_of_ai}")
+else :
+    print("ingen vinner det blir oavgjort")
+
 
     
 
