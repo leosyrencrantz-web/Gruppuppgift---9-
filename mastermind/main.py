@@ -9,4 +9,21 @@ while True:
     else :
         None
 
-print(nivå)
+antal_omgångar = 12
+antal_omgångar_körda = 0
+while antal_omgångar_körda  < antal_omgångar :
+    while True :
+        gissning = input("Ange gissning som följd av fyra siffror ->")
+        if len(gissning) == 4 :
+            gissning = int(gissning)
+            break
+        else :
+            print("kom ihåg endast 4")
+            None
+    
+    print(gissning)
+
+
+
+
+    antal_omgångar_körda  = antal_omgångar_körda  + 1
