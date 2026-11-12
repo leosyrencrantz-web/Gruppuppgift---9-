@@ -9,13 +9,19 @@ while True:
     else :
         None
 
+
+if nivå = 1 :
+    print("WEAK")
+elif nivå = 2 :
+    print("UR GONNA REGRET THIS :3")
+
+
 antal_omgångar = 12
 antal_omgångar_körda = 0
 while antal_omgångar_körda  < antal_omgångar :
     while True :
         gissning = input("Ange gissning som följd av fyra siffror ->")
-        if len(gissning) == 4 :
-            gissning = int(gissning)
+        if len(gissning) == 4 and gissning.isdigit() :
             break
         else :
             print("kom ihåg endast 4")
@@ -23,7 +29,10 @@ while antal_omgångar_körda  < antal_omgångar :
     
     print(gissning)
 
-
+    i = 0 
+    while i < 4:
+        print(gissning[i])
+        i = i + 1
 
 
     antal_omgångar_körda  = antal_omgångar_körda  + 1
