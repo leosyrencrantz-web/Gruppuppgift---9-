@@ -45,15 +45,30 @@ while antal_omgångar_körda  < antal_omgångar :
         else :
             print("kom ihåg endast 4")
             None
-    
+    print("this has endend") 
     print(gissning)
+
+   
 
     i = 0 
     while i < 4:
-        print(gissning[i])
+        
+        if int(gissning[i]) == rand_num[i]:
+            print("Y", end = " ")
+        else :
+            None
         
 
         i = i + 1
+    
 
 
+    i = 0
+    while i < 4 :
+        if int(gissning[i]) in rand_num:
+            print("#" * rand_num.count(int(gissning[i])) , end = " " )
+
+        else :
+            None
+        i = i + 1
     antal_omgångar_körda  = antal_omgångar_körda  + 1
