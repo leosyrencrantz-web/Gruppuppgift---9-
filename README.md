@@ -11,3 +11,9 @@ Har nästan gjort färdigt uppgift 1, behöver lägga till säker input och få 
 Leo Syrencrantz 11 
 
 Har börjat på mastermind charlie tar säkert hand om tvåan för mig, mer exakt information på vad jag har gjort finns i commit medellanden. Nästa gång hoppas jag på att bli färdig med en mvp av mastermind11
+
+
+Leo Syrencrantz 16 november
+
+Har fortsatt arbeta på mastermind jag har gjort datorspelaren och börjat på feedbacken efter varje gissning. Den har ett problem med att den dubbelräknar men det kommer jag fixa nästa gång
+
